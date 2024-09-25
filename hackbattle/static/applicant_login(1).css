@@ -1,0 +1,172 @@
+* {
+    font-family: "Playfair Display";
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+}
+
+
+
+body {
+    background-color: #EAEAEA;
+    background-image: url("./bg.png");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+
+}
+
+.top {
+    background-color: white;
+    padding: 10px;
+    height: 100px;
+    font-size: 28px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+
+
+
+#login {
+    background-color: transparent;
+    color: #0756FF;
+    padding: 10px;
+    font-size: 10px;
+    position: fixed;
+    top: 0;
+    width: 10vw;
+    height: 60px;
+    top: 30px;
+    right: 20px;
+    font-size: 20px;
+    border: solid 2px #0756FF ;
+    border-radius: 10px;
+
+
+}
+
+#login:hover {
+    background-color: #0756FF;
+    color: white;
+
+}
+
+.div2
+{
+    margin-top: 50px;
+}
+
+.info {
+    margin-top: 200px;
+    padding: 10px;
+    font-size: 30px;
+    color: black;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+label
+{
+    font-size: 20px;
+}
+
+#btn
+{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    margin: 10px;
+
+}
+
+
+
+.bottom {
+    background-color: #003572;
+    color: white;
+    padding: 20px;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    width: 100vw;
+    font-size: 20px;
+}
+
+
+img {
+    width: auto;
+    height: auto;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    padding: 20px;
+    font-size: 20px;
+    color: black;
+    margin: auto;
+    width: 50%;
+    
+    
+}
+
+#txtfld
+{
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+textarea,
+input[type="file"] {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+textarea
+{
+    resize: none;
+    height: 10vh;
+}
+
+button {
+    width: 50%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

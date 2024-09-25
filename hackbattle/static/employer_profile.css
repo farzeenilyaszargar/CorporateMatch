@@ -1,0 +1,268 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(164, 164, 164);
+    margin: 0;
+}
+
+
+
+
+.containerr {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+td:nth-child(3) {
+    font-weight: bold;
+}
+
+
+* {
+    font-family: "Playfair Display";
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+}
+
+
+
+body {
+    background-color: gainsboro;
+
+}
+
+.top {
+    background-color: white;
+    padding: 10px;
+    height: 100px;
+    font-size: 28px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+
+
+#login {
+    background-color: transparent;
+    color: #0756FF;
+    padding: 10px;
+    font-size: 10px;
+    position: fixed;
+    top: 0;
+    width: 10vw;
+    height: 60px;
+    top: 30px;
+    right: 20px;
+    font-size: 20px;
+    border: solid 2px #0756FF ;
+    border-radius: 10px;
+
+
+}
+
+#login:hover {
+    background-color: #0756FF;
+    color: white;
+
+}
+
+
+
+.bottom {
+    background-color: #003572;
+    color: white;
+    padding: 20px;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    width: 100vw;
+    font-size: 20px;
+}
+
+
+img {
+    width: auto;
+    height: auto;
+}
+
+
+.profile-container {
+    background-color: gainsboro;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.company-name {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.location {
+    color: #555;
+}
+
+.btnn
+{
+    position: fixed;
+    top:170px;
+    right: 50px;
+    
+}
+.btn
+{
+    background-color: #003572;
+    color: white;
+    height: 75px;
+    width: 150px;
+    font-size: 20px;
+}
+.btn:hover
+{
+    background-color: white;
+    color: #007bff;
+
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    position: relative;
+}
+
+#open-form-btn {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: fixed;
+    top: 175px;
+    right:100px;
+    height: 50px;
+    width: 150px;
+
+}
+
+#open-form-btn:hover {
+    background-color: #0056b3;
+}
+
+.form-container {
+    position: fixed;
+    top: 35%;
+    right: -1000px; /* Initially hidden off-screen */
+    width: 300px;
+    height: 50%;
+    background-color: #fff;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: right 0.3s ease;
+    z-index: 1000;
+}
+
+.form-container h2 {
+    margin-top: 0;
+}
+
+.form-container button#close-form-btn {
+    background-color: transparent;
+    color: #333;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.form-container.visible {
+    right: 20px; /* Move into view */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    width: 70%;
+    color: white;
+    background-color: #007bff;
+    padding: 5px;
+}
+
+.Status
+{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.Status:hover
+{
+    background-color: white;
+    color: black;
+
+}
